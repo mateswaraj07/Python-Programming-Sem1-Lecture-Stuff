@@ -49,3 +49,25 @@ print("Factorial of", 5, "is:", factorial(5))
 year = 2000
 if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0): # 4 -> divisible by 4, 100 -> not divisible by 100, 400 -> divisible by 400
     print(year, "is a leap year")
+
+#prime factors of a number
+n = 28
+print("Prime factors of", n, "are:")
+for i in range(1, n + 1):
+    if n % i == 0:
+        print(i)
+#ugly number check -> ugly number is a positive number whose prime factors are limited to 2, 3, and 5.
+n = 12
+while n % 2 == 0:
+    n = n // 2
+        
+while n % 3 == 0:
+    n = n // 3
+
+while n % 5 == 0:
+    n = n // 5
+
+if n == 1: #because if the number is an ugly number, then it will be reduced to 1 after dividing by 2, 3, and 5.
+    print("The number is an ugly number.")
+else:
+    print("The number is not an ugly number.")
