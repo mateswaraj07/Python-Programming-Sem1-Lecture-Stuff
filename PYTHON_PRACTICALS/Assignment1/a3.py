@@ -23,26 +23,22 @@ print(name)
 
 # Q3 Solution
 n = int(input("Enter number of values: "))
-
-numbers = []
-names = []
-
+lst = []
 for i in range(n):
-    num = int(input("Enter number: "))
-    name = input("Enter name: ")
-
-    numbers.append(num)
-    names.append(name)
-
-max_num = max(numbers)
-
+    value = input("Enter value: ")
+    if value.isdigit():
+        lst.append(int(value))
+    else:
+        lst.append(value)
+print("List:", lst)
+# Find maximum number
+max_num = max(x for x in lst if type(x) == int)
 print("Maximum number:", max_num)
-
+# Separate names from the list and sort descending
+names = [x for x in lst if type(x) == str]
 names.sort(reverse=True)
-
 print("Names in descending order:")
-for name in names:
-    print(name)
+print(names)
 
 
 # Q4 Solution
