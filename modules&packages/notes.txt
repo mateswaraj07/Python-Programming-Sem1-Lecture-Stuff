@@ -1,0 +1,4 @@
+Module: Its same as code library
+        A file containing a set of functions you want to include your application
+        To create a module just save the code in a file with the file extension .py
+        Use import statement to use the moduleTo use function from module syntax is module_name.function_name.
