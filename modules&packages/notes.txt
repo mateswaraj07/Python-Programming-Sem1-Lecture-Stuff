@@ -25,3 +25,7 @@ Random Module: Generates a random numbers and selections.
 Datetime Module: date.today()- current date 
                 datetime.now()- Current date and time
                 timedelta()- date arithmetic
+
+Application of timedelta():
+1. Scheduling 
+2. Measuring Time
