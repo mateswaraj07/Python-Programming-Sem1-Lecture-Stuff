@@ -2,3 +2,26 @@ Module: Its same as code library
         A file containing a set of functions you want to include your application
         To create a module just save the code in a file with the file extension .py
         Use import statement to use the moduleTo use function from module syntax is module_name.function_name.
+
+Math Module:    min()-minimum from the given list
+                max()-returns max from given list
+                abs()-function returns the absolute (positive) value of a specified number
+                pow(x,y): returns the value of x to the power y
+
+                math.sqrt() - returns square root of a number
+                math.factorial()- returns factorial of a number
+                math.ceil() - returns the ceiling value
+                math.floor()- returns the flooring value
+                math.pi- constant - 3.14
+
+only one module function import: syntax- from mymodule import function_name
+
+Random Module: Generates a random numbers and selections.
+                randint(a,b): random integer
+                random()- random float between 0 and 1
+                choice(seq)- random element
+                shuffle(list)- shuffle list
+
+Datetime Module: date.today()- current date 
+                datetime.now()- Current date and time
+                timedelta()- date arithmetic
