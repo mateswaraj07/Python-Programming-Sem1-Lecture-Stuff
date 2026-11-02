@@ -27,5 +27,10 @@ Datetime Module: date.today()- current date
                 timedelta()- date arithmetic
 
 Application of timedelta():
-1. Scheduling 
-2. Measuring Time
+1. Scheduling future events
+2. Measuring Time durations
+
+Fuctional Programming Tools:
+1. map() - transforms each element. Iterable of modified value
+2. filter() - select elements meeting a condition. Iterable of filtered value
+3. reduce()- combine elements into one value. Single Value
