@@ -41,6 +41,58 @@ syntax: `lambda arguments: expression`
 it can be used wherever function objects are required. Lambda functions are often used in conjunction with functions like `map()`, `filter()`, and `reduce()`.
 
 Functools Module:
-#functools is a module in Python that provides higher-order functions for functional programming. It includes functions like reduce, partial, lru_cache, and wraps, which can be used to manipulate and transform functions and data structures.
-# it is required to import functools module to use reduce function. The reduce function takes a binary function and a sequence of elements, and applies the function cumulatively to the elements of the sequence, reducing it to a single value. In this case, we are using reduce to calculate the sum of numbers in the nums list by applying the lambda function that adds two numbers together.
-# it is not require to import functools module to use map and filter functions. The map function takes a function and a sequence of elements, and applies the function to each element of the sequence, returning a new sequence with the results. In this case, we are using map to calculate the square of each number in the nums list by applying the lambda function that squares a number. The filter function takes a function and a sequence of elements, and returns a new sequence containing only the elements for which the function returns True. In this case, we are using filter to select only the even numbers from the nums list by applying the lambda function that checks if a number is even.
+# functools is a module in Python that provides higher-order functions for functional programming. 
+# It includes functions like reduce, partial, lru_cache, and wraps, which can be used to manipulate and transform functions and data structures.
+# it is required to import functools module to use reduce function. The reduce function takes a binary function and a sequence of elements, and applies the function cumulatively to the elements of the sequence, reducing it to a single value. 
+# In this case, we are using reduce to calculate the sum of numbers in the nums list by applying the lambda function that adds two numbers together.
+# it is not require to import functools module to use map and filter functions. 
+# The map function takes a function and a sequence of elements, and applies the function to each element of the sequence, returning a new sequence with the results. 
+# In this case, we are using map to calculate the square of each number in the nums list by applying the lambda function that squares a number. 
+# The filter function takes a function and a sequence of elements, and returns a new sequence containing only the elements for which the function returns True. 
+# In this case, we are using filter to select only the even numbers from the nums list by applying the lambda function that checks if a number is even.
+
+Different ways to import:
+1. Import Entire Module- import math
+2. Import Specific Functions- from math import factorial
+3. Import Multiple Functions- from math import sqrt,factorial
+4. Import with alias- import math as m
+5. Import Everything- from math import *    # Not Recommended
+
+
+Packages:
+- a package is a collection of modules organized in directories
+- Python packages are a way to organize and structure code by grouping related modules into directories
+- a package is essentially a folder that contains a __init__.py file and one or more Python files(modules)
+- allows modules to be easily shared and distributed accross applications
+
+__init__.py:
+- __init__.py is generally created inside a package directory.
+- It can be an empty file.
+- It executes when the package is imported.
+- Modern Python also supports namespace packages without __init__.py, but regular packages commonly use it.
+Remember: A package is a folder containing related modules, and __init__.py helps Python identify and initialize that package.
+
+ROLE OF __init__.py
+-identifies folder as package
+-initializes package
+-startup codes
+
+- __init__.py is generally created inside a package directory.
+- It can be an empty file.
+- It executes when the package is imported.
+- Modern Python also supports namespace packages without __init__.py, but regular packages commonly use it.
+Remember: A package is a folder containing related modules, and __init__.py helps Python identify and initialize that package.
+
+
+Key components of a Python package:
+- Module: a single Python file containing resusable code
+
+Creating and Accessing packages:
+1. Create a directory: create a folder that will act as the package root
+2. Add Modules: inside the directory, add Python files(modules). each module can contain related functions or classes.
+3. Add __init__.py: add an __init__.py file to the directory. This file tells Python that the directory should be treated as a package.
+4. Create Sub-packages (OPTIONAL): One can organize
+
+
+syntax:
+from package_name.module_name import function
