@@ -17,11 +17,10 @@ async def main():
     print(results)
 
 asyncio.run(main())
-async def square(n) – Defines an asynchronous function.
-
 
 """
 Explanation of the code:
+async def square(n) – Defines an asynchronous function.
 await asyncio.sleep(2) – Waits for 2 seconds without blocking other coroutines.
 return n*n – Returns the square of the number.
 asyncio.gather() – Runs all three coroutines concurrently and collects their results.
