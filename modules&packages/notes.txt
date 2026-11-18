@@ -113,3 +113,10 @@ ASYNCIO:
 jobs and resumes them when their awaited operations complete
 syntax: asyncio.run(main()) -- other than jupyter ntbk (for vscode,etc)
 await main() -- for jupyter ntbk
+
+2. coroutines
+
+3. tasks - acts a container of Functions
+syntax: asyncio.create_task()
+
+4. Awaitables - objects can be awaited- typically coroutines, tasks or certain .....
