@@ -120,3 +120,11 @@ await main() -- for jupyter ntbk
 syntax: asyncio.create_task()
 
 4. Awaitables - objects can be awaited- typically coroutines, tasks or certain .....
+
+DEMO: (jupyter ntbk)
+import asyncio
+async def greet():
+        print("Hello")
+        await asyncio.sleep(4)
+        print("Welcome to Asyncio")
+await greet()
