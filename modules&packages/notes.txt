@@ -128,3 +128,14 @@ async def greet():
         await asyncio.sleep(4)
         print("Welcome to Asyncio")
 await greet()
+
+1. Synchronous Programming
+In synchronous programming, statements execute one after another. The next statement waits until the previous statement finishes.
+
+Program:
+import timedef greet():    
+        print("Hello")    
+        time.sleep(4)    
+        print("Welcome to Python")
+greet()
+print("Program Ended")
