@@ -96,3 +96,20 @@ Creating and Accessing packages:
 
 syntax:
 from package_name.module_name import function
+
+
+ASYNCIO:
+- it provides
+
+-key characteristics:
+1. uses coroutines defined with async def
+2. uses await to pause execution until an operation completes
+3. runs everything inside an event loop that schedules tasks cooperatively
+4. Enables single-threaded concurrency without multithreading overhead.
+5. forms the foundation of many async frameworks (e.g. FastAPI, aiohttp)
+
+- core components:
+1. Event loop: manages and schedules asynchronous tasks, deciding when each coroutine runs. it cycles through pending 
+jobs and resumes them when their awaited operations complete
+syntax: asyncio.run(main()) -- other than jupyter ntbk (for vscode,etc)
+await main() -- for jupyter ntbk
