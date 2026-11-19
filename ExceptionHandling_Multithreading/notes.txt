@@ -1,0 +1,31 @@
+Exception:
+- it is an error that occurs during program execution. Exception handlimg allows a program to continue running without 
+  crashing unexpectely.
+- when Python script encounters a situation that it cannot cope with, it raises an Exception.
+- An Exception is a Python object that represents an error.
+
+Common Exceptions:
+1. ZeroDivisionError
+2. ValueError
+3. NameError
+4. IndexError
+5. FileNotFoundError
+
+
+components:
+. try :- this block lets you test a block of code for errors
+. except :- this block lets you handle the error
+. else :- lets you execute code when there is no error
+. finally :- lets you execute code, regardless of the result of try and except blocks.
+
+syntax:
+try:
+    #Risky code
+except SpecificException:
+    #handle specific Exception
+except Exception:
+    #handle other error
+else:
+    #executes if no Exception
+finally:
+    #execute always
