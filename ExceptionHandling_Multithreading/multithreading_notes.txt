@@ -4,3 +4,11 @@ Multithreading:
 - Multithreading allows you to run multiple threads concurrently within a single process, which is also known as thread-based parallelism.
 - Multithreading is a technique that allows a program to execute multiple threads (smaller units of a process) concurrently.
 - Program can perform multiple tasks at the same time, enhancing its efficiency and responsiveness.
+
+Thread lifecycle:
+- new -> running -> blocked -> terminated
+- new : a thread is created but not yet started. it has been allocated resources but its not executing
+- running : thread is started and is currently executing its code
+- blocked : a thread is waiting for an event or condition to occur
+- terminated : thread has completed its execution or has beedn explicitly terminated
+
