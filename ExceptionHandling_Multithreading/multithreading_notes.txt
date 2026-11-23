@@ -32,3 +32,8 @@ Lock
   lock.acquire()  # if the lock is free, the thread acquires it. If another thread already holds it, the thread waits.
 - releasing a lock:
   lock.release()   # other waiting threads can now acquire the lock
+
+Working of Lock:
+- Thread1 -> acquire()-> critical section->release()
+- Thread2 -> waits until lock is released
+- Thread2 -> acquire()-> critical section->release()
