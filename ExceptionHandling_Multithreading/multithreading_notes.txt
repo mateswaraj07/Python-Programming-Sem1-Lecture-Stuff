@@ -17,3 +17,8 @@ Key functions:
 - sleep() -> pause thread
 - join() -> wait for thread
 - Thread() -> create thread
+
+Sleep vs Join
+- sleep() pauses teh current thread. join() waits for another thread
+- sleep() takes time as argument. join() takes thread object
+- sleep() is used for delay. join() is used for synchronization
