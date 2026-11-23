@@ -12,3 +12,8 @@ Thread lifecycle:
 - blocked : a thread is waiting for an event or condition to occur
 - terminated : thread has completed its execution or has beedn explicitly terminated
 
+Key functions:
+- start() -> Begin the execution
+- sleep() -> pause thread
+- join() -> wait for thread
+- Thread() -> create thread
