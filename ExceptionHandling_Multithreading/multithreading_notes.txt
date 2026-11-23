@@ -22,3 +22,13 @@ Sleep vs Join
 - sleep() pauses teh current thread. join() waits for another thread
 - sleep() takes time as argument. join() takes thread object
 - sleep() is used for delay. join() is used for synchronization
+
+Lock
+- A lock is a synchronization mechanism provided by the threading module that allows only one thread to access a shared resource at a time
+- It prevents race conditions and ensures data consistency when multiple threads work on the same data
+- create lock:
+  lock = threading.lock()
+- acquiring lock:
+  lock.acquire()  # if the lock is free, the thread acquires it. If another thread already holds it, the thread waits.
+- releasing a lock:
+  lock.release()   # other waiting threads can now acquire the lock
