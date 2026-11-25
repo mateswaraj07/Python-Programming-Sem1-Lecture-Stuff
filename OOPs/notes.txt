@@ -21,3 +21,19 @@ Types of Data Members:
 - instance data member: declared using self. each object get its own copy
 - class data member: declared inside class but outside Methods. shared by all objects of the class
 - private data member: begins with double underscore(__). cannot be directly accessed outside class
+
+Getters and Setters in Python
+Getter:
+- A getter is a method used to access or read the value of a private data member.
+- It returns the value of a private variable.
+Setter:
+- A setter is a method used to modify or update the value of a private data member.
+- It assigns a new value to a private variable.
+Syntax
+Getter syntax:
+def get_data(self):    
+    return self.__data
+
+Setter syntax:
+def set_data(self, value):    
+    self.__data = value
