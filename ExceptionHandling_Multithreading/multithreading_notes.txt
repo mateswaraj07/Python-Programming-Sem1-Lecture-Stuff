@@ -37,3 +37,14 @@ Working of Lock:
 - Thread1 -> acquire()-> critical section->release()
 - Thread2 -> waits until lock is released
 - Thread2 -> acquire()-> critical section->release()
+
+
+Multithreading vs Asyncio
+Features         Multithreading                 Asyncio
+Workers            Multiple threads             usually one thread
+uses              threading module                 
+
+
+When to use:-
+Multithreading:- File download, 
+Asyncio:- Chat Application
