@@ -37,7 +37,6 @@ def update_inventory():
         print(order, "inventory updating")
         time.sleep(2)
         print(order, "inventory updated successfully")
-
 # Creating threads
 t1 = threading.Thread(target=verify_orders)
 t2 = threading.Thread(target=process_payment)
