@@ -8,3 +8,11 @@ Class and object:
 
 - class: Attributes - associated with value
          Methods - functions
+
+
+__init__():
+- It is called automatically when an object is created.
+- It is ued to initialize object Attributes
+- self refers to the current object
+- It can take parameters
+- Every object gets its own instance of variables initialized through self
