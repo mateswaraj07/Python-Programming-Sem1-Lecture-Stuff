@@ -37,3 +37,17 @@ def get_data(self):
 Setter syntax:
 def set_data(self, value):    
     self.__data = value
+
+
+Constructor and Destructor
+- Constructor: __init__()
+- Destructor: __del__
+
+Types of Constructor - 
+1. Default Constructor
+2. Parameterized Constructor
+
+.> Constructor : __init__()
+  Destructor: __del__()
+.> Constructor: Object Creation
+   Destructor: Object Destructor
