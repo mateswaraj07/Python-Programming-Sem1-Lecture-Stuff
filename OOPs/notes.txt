@@ -64,3 +64,5 @@ used in instance variables.          used in class method.
 object required to call method.      can be called using class name.
 accesess instance variables.         accesess class variables.
 
+Property Methods
+- The @property decorator allows us to access a method like a variable (without using parentheses).
