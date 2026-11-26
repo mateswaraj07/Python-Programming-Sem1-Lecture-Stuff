@@ -51,3 +51,16 @@ Types of Constructor -
   Destructor: __del__()
 .> Constructor: Object Creation
    Destructor: Object Destructor
+
+
+@classmethod
+- It is a method that operates on class variables rather than instance variables.
+- It is a decorator that tells python that the variable is a class variable
+- it takes cls as an argument
+
+self                                     cls
+refers to current object.            refers to current class.
+used in instance variables.          used in class method.
+object required to call method.      can be called using class name.
+accesess instance variables.         accesess class variables.
+
