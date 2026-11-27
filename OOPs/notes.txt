@@ -90,3 +90,9 @@ Explanation:
 Syntax to check MRO:
 ClassName.mro()
 Remember: Python follows the MRO order from left to right in this example: C → A → B → object.
+
+super()
+Definition: super() is used to call a method of the next class in the MRO (Method Resolution Order).
+Remember:
+- super() calls the next class in the MRO, not necessarily the direct parent.
+- It is commonly used in inheritance to reuse parent-class methods.
