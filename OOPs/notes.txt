@@ -81,3 +81,4 @@ Types:-
 Method Resolution Order (MRO) 
 - is the exact sequence Python uses to search for methods and attributes across a class hierarchy. 
 - It is especially important in multiple inheritance when multiple parent classes define a method with the same
+- MRO decides the order in which Python searches for a method when multiple parent classes have the same method.
