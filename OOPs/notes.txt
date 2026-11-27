@@ -77,3 +77,7 @@ Types:-
 3. mutilevel inheritance:- child class inherits from a class which itself inherits from another class
 4. heirarchical inheritance:- multiple child classes inherits from one class
 5. hybrid inheritance:- combination of two inheritances.
+
+Method Resolution Order (MRO) 
+- is the exact sequence Python uses to search for methods and attributes across a class hierarchy. 
+- It is especially important in multiple inheritance when multiple parent classes define a method with the same
