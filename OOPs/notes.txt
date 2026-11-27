@@ -70,3 +70,10 @@ Property Methods
 Inheritance
 - It is a mechanism in which one class acquires the properties and methods of another class.
 - It promotes:- code reusability, reduced redundancy, easy maintenance.
+
+Types:-
+1. single inheritance:- child class inherits Attributes and methods from only one parent class
+2. multiple inheritance:- child class inherits the Attributes and methods from more than  one parent
+3. mutilevel inheritance:- child class inherits from a class which itself inherits from another class
+4. heirarchical inheritance:- multiple child classes inherits from one class
+5. hybrid inheritance:- combination of two inheritances.
